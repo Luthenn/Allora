@@ -43,3 +43,8 @@ sudo reboot
     }
 }'
 ```
+
+**Migrate to V2**
+```
+wget -O testnetmigrator.sh https://raw.githubusercontent.com/casual1st/alloraworkersetup/main/testnetmigrator.sh && chmod +x testnetmigrator.sh && ./testnetmigrator.sh
+```
